@@ -34,6 +34,7 @@ weasyprint all_courses.html all_courses.pdf
 ## Ενδεικτικές οθόνες
 
 Τοπική αντιγραφή αποθετηρίου.
+
 ![Screenshot1](  https://raw.githubusercontent.com/DIYamYam/SWFinal/master/topic.png  )
 
 Μετατροπή ενός αρχείου μαθήματος

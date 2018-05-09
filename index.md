@@ -33,21 +33,26 @@ weasyprint all_courses.html all_courses.pdf
 
 ## Ενδεικτικές οθόνες
 
-Τοπική αντιγραφή αποθετηρίου 
+### Τοπική αντιγραφή αποθετηρίου 
+
 ![Screenshot1](  https://raw.githubusercontent.com/DIYamYam/SWFinal/master/topic.png  )
 
-Μετατροπή ενός αρχείου μαθήματος
+### Μετατροπή ενός αρχείου μαθήματος
+
 ![Screenshot2](  https://raw.githubusercontent.com/DIYamYam/SWFinal/master/hci.convert.png  )
 
-Αποτελέσματα μετατροπής
+### Αποτελέσματα μετατροπής
+
 ![Screenshot3](  https://raw.githubusercontent.com/DIYamYam/SWFinal/master/hcihtml.png  )
 
 ![Screenshot4](  https://raw.githubusercontent.com/DIYamYam/SWFinal/master/hcipdf.png  )
 
-Μαζική μετατροπή αρχείων φακέλου
+### Μαζική μετατροπή αρχείων φακέλου
+
 ![Screenshot5](  https://raw.githubusercontent.com/DIYamYam/SWFinal/master/allconvert.png  )
 
-Αποτελέσματα μετατροπής
+### Αποτελέσματα μετατροπής
+
 ![Screenshot6](  https://raw.githubusercontent.com/DIYamYam/SWFinal/master/allhtml.png  )
 
 ![Screenshot7](  https://raw.githubusercontent.com/DIYamYam/SWFinal/master/allpdf.png  )

@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+ ΤΕΛΙΚΗ ΑΝΑΦΟΡΑ
+**Γιαμουρίδης Νικόλαος Π2013051**
 
-You can use the [editor on GitHub](https://github.com/DIYamYam/SWFinal/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## ΣΥΝΟΨΗ
+Μετά την εγκατάσταση του περιβάλοντος UNIX, έγινε εγκατάσταση των ζητηθέντων προγραμμάτων pandoc και weasyprint μετά από πειραματισμό και εξάσκηση με τα παραπάνω βρέθηκε ενάς γρήγορος τρόπος της μετατροπής αρχείων από markdown σε html και από html σε pdf.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Εισαγωγή
+Η παρούσα εργασία εκπονήθηκε στα πλαίσια του μαθήματος Τεχνολογίες Λογισμικού ΣΤ' εξαμήνου του Ιονίου Πανεπιστημίου. Υλοποιήθηκε και παραδόθηκε το πρώτο παραδοτέο και η παρούσα σελίδα αποτελεί την τελική αναφορά της εργασίας. Σκοπός της εργασίας αυτής είναι η εναρμόνιση του οδηγού σπουδών με την ιστοσελίδα του τμήματος και η αυτόματη έκδοση του οδηγού σπουδών μέσω του υλικού της ιστοσελίδας.
 
-### Markdown
+## Επιλογή εργαλείων
+Για την υλοποίηση της εργασίας αλλά και για την ανταλαγή σχολίων και διορθώσεων πάνω σε αυτή, χρησιμοποιήθηκε η πλατφόρμα του GitHub. To GitHub αποτελεί το πλέον απαραίτητο "social media" ενός προγραμματιστή, λόγω  της δημοτικότητας αλλά επίσης είναι ενα εργαλείο που πρέπει ο καθένας μας να εξοικειωθεί διότι καλλιεργεί την συνεργατικότητα στον προγραμματισμό και γενικότερα στην υλοποίηση project. Χρησιμοποιήθηκε επίσης για το προγραμματιστικό κομμάτι της εργασίας το πρόγραμμα pandoc το οποίο κάνει μετατροπές αρχείων από ένα markup format σε ένα άλλο και το weasyprint ώστε να μετατρέπονται τα markup αρχεία σε pdf. Τα παραπάνω εργαλεία χρησιμοποιήθηκαν σε περιβάλον UNIX.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Διαδικασία Ανάπτυξης
+Αρχικά έγινε εγκατάσταση του λειτουργικού συστήματος Linux Manjaro, στην συνέχεια εγκαταστάθηκε το pandoc μαζί με όλες τις απαραίτητες βιβλιοθήκες για την ορθή του λειτουργία και τελός το κομμάτι της εγκατάστασης τελείωσε με το weasyprint. Αφού έγινε αντιγραφή του αποθετηρίου τοπικά στον υπολογιστή ξεκίνησε η διαδικασία διαχωρισμού του παλιού οδηγού σε μικρότερα αρχεία με τιτλούς ίδιους με αυτόυς της ιστοσελίδας για την ακρίβεια δημιουργήθηκαν 20 αρχεία μαθημάτων στον φάκελο courses του αποθετηρίου. Τα αρχεία αυτά μετατράπηκαν από markdown σε html και στην συνέχεια σε μορφή pdf με της παρακάτω εντολές
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+pandoc -s -c courses.css course_name.md -o course_name.html
+weasyprint course_name.html course_name.pdf
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## Ενδεικτικές οθόνες
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DIYamYam/SWFinal/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![Screenshot1](    )
 
-### Support or Contact
+![Screenshot2](    )
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Screenshot3](    )
+
+## Συμπεράσματα
+Η συγκεκριμένη εργασία αν και αρκετά εύκολη ως ένα σημείο, αποτελεί πολυ καλό παράδειγμα των πολυμεσικών επιπέδων και ζωνών σχεδίασης της εμπειρίας του χρήστη. Ο κώδικας ως περιεχόμενο συνδέεται με την εικόνα το site δηλαδή η οποία αποτελεί την διάδραση στην σχέση αυτή. Τέλος πρέπει να σημειωθεί πως δεν έγινε περεταίρω επίλυση των παρακάτω παραδοτέων λόγω αυξημένων υποχρεώσεων (πτυχιακή, μαθήματα προηγούμενων εξαμήνων κτλ.)
+
+
+
+[Αποθετήριο Data Visualizer](https://github.com/DIYamYam/D3js-uk-political-donations)
+[Link Data Visualizer](https://diyamyam.github.io/D3js-uk-political-donations/)
+[Αποθετήριο Αναφοράς](https://github.com/DIYamYam/FinalReport)
